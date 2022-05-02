@@ -16,7 +16,7 @@ async def on_ready():
 
 @client.event
 async def on_command_error(ctx, error):
-    if  isinstance(error, discord.ext.commands.errors.CommandNotFound):
+    if isinstance(error, discord.ext.commands.errors.CommandNotFound):
         pass
 
 @client.event
