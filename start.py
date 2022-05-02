@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import json
 from subprocess import Popen, PIPE
 
 token = "TOKEN-HERE"
